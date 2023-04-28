@@ -5,6 +5,7 @@ function Counter() {
 
   return (
     <>
+      <h2>Counter</h2>
       <label htmlFor="counter">
         <input value={count} id="counter" />
       </label>

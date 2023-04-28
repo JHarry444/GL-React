@@ -16,18 +16,21 @@ function Converter() {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', maxWidth: '35%' }}>
-        <label htmlFor="miles">
-          Miles
-        </label>
-        <input type="text" value={miles} onChange={milesHandler} id="miles" min={0} />
-        <label htmlFor="kms">
-          Kms
-        </label>
-        <input type="text" value={kms} onChange={kmsHandler} id="kms" />
+    <>
+      <h2>Converter</h2>
+      <div id="converter" style={{ display: 'flex', justifyContent: 'center' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', maxWidth: '35%' }}>
+          <label htmlFor="miles">
+            Miles
+          </label>
+          <input type="text" value={miles} onChange={milesHandler} id="miles" min={0} />
+          <label htmlFor="kms">
+            Kms
+          </label>
+          <input type="text" value={kms} onChange={kmsHandler} id="kms" />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
