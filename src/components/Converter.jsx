@@ -16,8 +16,8 @@ function Converter() {
   };
 
   return (
-    <div>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr' }}>
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', maxWidth: '35%' }}>
         <label htmlFor="miles">
           Miles
         </label>
