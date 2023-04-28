@@ -18,8 +18,8 @@ function Converter() {
   return (
     <>
       <h2>Converter</h2>
-      <div id="converter" style={{ display: 'flex', justifyContent: 'center' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', maxWidth: '35%' }}>
+      <div id="converter">
+        <div>
           <label htmlFor="miles">
             Miles
           </label>
